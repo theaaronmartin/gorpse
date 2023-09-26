@@ -10,6 +10,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <a
           className="flex justify-center items-center"
           href="https://gorpse.bandcamp.com"
+          target="_self"
         >
           <img src={logo} className="bg-cover h-3/6 w-4/6" />
         </a>
